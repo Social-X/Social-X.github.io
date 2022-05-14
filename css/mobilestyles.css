@@ -1,0 +1,153 @@
+@media only screen and (max-width: 1200px) {
+  .wrap,
+  .headerline nav ul.menu,
+  .sitefooter .footercontent {
+    max-width: 90%;
+  }
+
+  body.main .time {
+    width: calc(35% - 7vw);
+  }
+}
+@media only screen and (max-width: 1000px) {
+  body.main .wrap.flex .logo {
+    width: 180px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .wrap,
+  .headerline nav ul.menu,
+  .sitefooter .footercontent {
+    max-width: 94%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .wrap,
+  .headerline nav ul.menu,
+  .sitefooter .footercontent {
+    max-width: 96%;
+  }
+
+  body.main .time,
+  body.main .description {
+    width: 100%;
+  }
+
+  body.main .pasttalks article, body.main .upcomingtalks article, body.main #tweets article, body.main #tweets ul li {
+    width: 45%;
+  }
+
+  body.main #tweets ul li {
+    margin-bottom: 35px;
+  }
+
+  body.main #tweets ul li:last-child {
+    margin-bottom: 0px;
+  }
+
+  body.main .upcomingtalks article:first-child {
+    width: 100%;
+  }
+
+  .sitefooter {
+    height: auto;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .wrap,
+  .headerline nav ul.menu,
+  .sitefooter .footercontent {
+    max-width: 92%;
+  }
+
+  body.main .welcome,
+  body.main .description,
+  body.main .pasttalks article,
+  body.main .upcomingtalks article,
+  body.main #tweets article,
+  body.main #tweets ul li {
+    width: 100%;
+  }
+
+  body.main h1 {
+    font-size: 31px;
+  }
+
+  body.main .subscribe input {
+    width: calc(100% - 117px);
+  }
+
+  body.main .wrap.flex .logo {
+    width: 100px;
+    margin: 0 auto;
+    order: 1;
+  }
+
+  body.main .welcome {
+    order: 2;
+    padding-top: 28px;
+  }
+
+  body.main .description {
+    margin-top: 20px;
+  }
+
+  body.main .pasttalks article, body.main .upcomingtalks article, body.main #tweets article {
+    margin-bottom: 50px;
+  }
+
+  body.main .pasttalks article:last-of-type,
+  body.main .upcomingtalks article:last-of-type,
+  body.main #tweets article:last-of-type {
+    margin-bottom: 0;
+  }
+
+  body.main .showmore {
+    margin-top: 30px;
+  }
+
+  .headerline nav ul.menu li:last-child {
+    display: none;
+  }
+
+  .headerline nav ul.menu li {
+    margin-right: 25px;
+  }
+
+  .sitefooter .footercontent .mailcontact {
+    margin-right: unset;
+    width: 100%;
+  }
+
+  .sitefooter .footercontent {
+    line-height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .sitefooter {
+    height: auto;
+  }
+
+  .sitefooter .footercontent .partner span {
+    display: inline-block;
+    width: 100%;
+    display: none;
+  }
+
+  .sitefooter .footercontent .partner {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .sitefooter .footercontent .partner img {
+    margin-left: 10px;
+    height: 18px !important;
+  }
+
+  .sitefooter .footercontent .partner a:first-of-type img {
+    margin-left: 0;
+  }
+}
